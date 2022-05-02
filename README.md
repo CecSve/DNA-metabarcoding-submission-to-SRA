@@ -1,6 +1,10 @@
 # DNA metabarcoding submission to the Sequence Read Archive (SRA)
 [to be updated]
-Documentation on how DNA metabarcoding sequencing data was submitted to SRA using [the submission portal](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/).
+As it is true for many other research projects that are externally funded, I had to submit the DNA metabarcoding data and make it public available and useable for future research. But I could not seem to find a guide or even a blog that documented the process. So I decided to write some documentation on how DNA metabarcoding sequencing data was submitted to SRA using [the submission portal](https://www.ncbi.nlm.nih.gov/sra/docs/submitportal/). 
+
+First of all, being a biologist, you do not necessarily come from a medical research background or have the same research terminology as medical research. In medical research however, the word metabarcoding is not really used - instead the word metagenomics is used. Ecologists usually distinguish between metabarcoding (marker based) and metagenomics (shotgun sequencing), where the first is amplifying a small region of the DNA which is conservative enough to used it for a specific organism group, but variable enough to distinguish species. The latter methods (which I am not practically familiar with), combines small fragments into full genomes of a single organism (maybe multiple?). 
+
+**So the take home message is - if you want to submit metabarcoding data to SRA, remember that the term metagenome (in some cases) is the same as metabarcoding**. 
 
 ## 1. Submit a BioProject
 First step is to create a BioProject.
