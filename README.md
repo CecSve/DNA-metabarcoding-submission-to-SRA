@@ -26,14 +26,15 @@ My attempt of the most descriptive title possible.
 Before submitting, I added an external link to project webpage, mentioned Aage V. Jensens Naturfond as funding organisation and added a link to a published paper using some of the data. 
 
 ## 2. Submit BioSamples ([batch sample submission](https://www.ncbi.nlm.nih.gov/biosample/docs/submission/batch/))
-I am not completely sure which [BioSample Attribute/template](https://submit.ncbi.nlm.nih.gov/biosample/template/) to choose. In the [ENA](https://biodiversitydata-se.github.io/mol-data/ena-metabar.html) guide it is stated that '_Investigation type should be set to mimarks-survey for metabarcoding data_' and the guide also states:
-| Sampled environment      | Recommended checklist |
-| ----------- | ----------- |
-| Air or general, above-ground, terrestrial      | GSC MixS air       |
+### BioSample type
+I am not completely sure which [BioSample template](https://submit.ncbi.nlm.nih.gov/biosample/template/) to choose. For the BioProjects and associated BioSamples I found on SRA, it seems like people use _Metagenome or environmental; version 1.0_. Since I will submit to SRA, I will go with that package as well. 
 
-It seems there are a limited amount of columns that needs to be uploaded for most of the templates: _sample_name_, _organism_, _collection_date_, _geo_loc_name_, _Lat_lon_.
+It seems there are a limited amount of columns that needs to be uploaded for most of the templates: _sample_name_, _organism_, _collection_date_, _geo_loc_name_, _Lat_lon_. There is a good general guide and webinar from [NCBI](https://www.ncbi.nlm.nih.gov/biosample/docs/submission/faq/) that explains the data types etc. 
 
-**Check**: should _organism_ be Arthropoda environmental sample [Taxonomy ID: 260574]? It seems other submission with similar data have used that organism disclaimer.
+The data compiling is documented in script XX.
+
+### BioSample attributes
+**Check**: should _organism_ be Arthropoda environmental sample [Taxonomy ID: 260574](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=260574&lvl=3&lin=f&keep=1&srchmode=1&unlock)? It seems other submission with similar data have used that organism disclaimer.
 
 ## 3. Submit [metadata](https://www.ncbi.nlm.nih.gov/sra/docs/submitmeta/) 
 
